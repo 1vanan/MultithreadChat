@@ -25,6 +25,7 @@ public class Server
         // client request
         while (true)
         {
+            System.out.println("Waiting for the request");
             // Accept the incoming request
             s = ss.accept();
 
